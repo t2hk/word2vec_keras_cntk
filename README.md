@@ -34,28 +34,28 @@ I developed in the following environment.
 
 # How to use
 ### Data Converter
-  - 1. download the japanese wikipedia full data and convert to text from xml by wp2txt and so on.
-  - 2. edit setting file "train_data_gen_settings.py"
-  - 3. execute "gen_prepared_data_multi.py"
+  1. download the japanese wikipedia full data and convert to text from xml by wp2txt and so on.
+  2. edit setting file "train_data_gen_settings.py"
+  3. execute "gen_prepared_data_multi.py"
 
-       ```
-       $ python gen_prepared_data_multi.py
-       ```
+     ```
+     $ python gen_prepared_data_multi.py
+     ```
 ### Training and Saving
-  -1. edit setting file "training_settings.py"
-  -2. execute "cbow_train_onnx.py"
+  1. edit setting file "training_settings.py"
+  2. execute "cbow_train_onnx.py"
 
-       ```
-       $ python cbow_train_onnx.py
-       ```
+     ```
+     $ python cbow_train_onnx.py
+     ```
 
 ### Test
-  -1. edit setting file "training_settings.py"
-  -2. execute "cbow_eval.py"
+  1. edit setting file "training_settings.py"
+  2. execute "cbow_eval.py"
 
-       ```
-       $ python cbow_eval.py
-       ```
+     ```
+     $ python cbow_eval.py
+     ```
 
 ## Thanks
 I refered the following project. Thank you.
