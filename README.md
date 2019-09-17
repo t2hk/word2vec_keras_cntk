@@ -5,14 +5,17 @@ The implementation of word2vec cbow in Keras using CNTK backend.
 This is the implementation of word2vec cbow and data converter for training data.
 
 * The wikipedia data converter
+
   To convert Japanese wikipedia text file to training data that is input to the cbow model.
   The Japanese Wikipedia text data is https://dumps.wikimedia.org/jawiki/latest/
 
 * The word2vec cbow model
+
   Training and saving the model with Keras using CNTK backend.
   The model format is ONNX.
 
 * Test  
+
   Try to analogize using the learned model.
   
   - cosine similarity
