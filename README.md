@@ -42,6 +42,7 @@ I developed in the following environment.
   3. execute "gen_prepared_data_multi.py"
 
      ```
+     $ cd wikipedia_data_converter
      $ python gen_prepared_data_multi.py
      ```
 ### Training and Saving
@@ -49,6 +50,7 @@ I developed in the following environment.
   2. execute "cbow_train_onnx.py"
 
      ```
+     $ cd word2vec_keras_cntk
      $ python cbow_train_onnx.py
      ```
 
@@ -57,6 +59,7 @@ I developed in the following environment.
   2. execute "cbow_eval.py"
 
      ```
+     $ cd word2vec_keras_cntk
      $ python cbow_eval.py
      ```
 
